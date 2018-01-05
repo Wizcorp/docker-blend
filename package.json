@@ -1,0 +1,29 @@
+{
+  "name": "docker-blend",
+  "version": "1.0.0",
+  "description": "NODE_ENV integration for docker-compose",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wizcorp/docker-blend.git"
+  },
+  "keywords": [
+    "docker",
+    "docker-compose",
+    "config"
+  ],
+  "author": "Marc Trudel <mtrudel@wizcorp.jp>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Wizcorp/docker-blend/issues"
+  },
+  "homepage": "https://github.com/Wizcorp/docker-blend#readme",
+  "dependencies": {
+    "@alexlafroscia/yaml-merge": "^1.0.3",
+    "rimraf": "^2.6.2",
+    "tempy": "^0.2.1"
+  }
+}
