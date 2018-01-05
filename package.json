@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "NODE_ENV integration for docker-compose",
   "main": "index.js",
+  "bin": {
+    "docker-blend": "./bin/docker-blend"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
