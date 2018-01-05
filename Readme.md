@@ -1,9 +1,14 @@
 # ![docker-blend](./logo.png)
 
-Environment-based docker-compose.yml configuration.
+Environment-based `docker-compose.yml` configuration management.
 
 The goal of this tool is to simplify mixing and merging `docker-compose`
 files based on the execution environment (essentially, `NODE_ENV`).
+
+This binary currently wraps:
+
+  * docker-compose
+  * docker stack
 
 ## Installation
 
