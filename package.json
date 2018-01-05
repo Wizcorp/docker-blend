@@ -1,6 +1,6 @@
 {
   "name": "docker-blend",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "NODE_ENV integration for docker-compose",
   "main": "index.js",
   "bin": {
