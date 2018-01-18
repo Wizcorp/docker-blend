@@ -1,6 +1,6 @@
 {
   "name": "docker-blend",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "NODE_ENV integration for docker-compose",
   "main": "index.js",
   "bin": {
@@ -26,8 +26,10 @@
   "homepage": "https://github.com/Wizcorp/docker-blend#readme",
   "dependencies": {
     "@alexlafroscia/yaml-merge": "^1.0.3",
-    "git-message": "^2.0.2",
     "rimraf": "^2.6.2",
     "tempy": "^0.2.1"
+  },
+  "devDependencies": {
+    "git-message": "^2.0.2"
   }
 }
